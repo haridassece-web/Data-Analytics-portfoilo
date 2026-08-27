@@ -172,6 +172,18 @@ h1 {
   transform: scale(1.04);
 }
 
+.badge-category {
+  display: inline-block;
+  background: rgba(34, 197, 94, 0.15);
+  color: var(--accent-2);
+  border: 1px solid rgba(34, 197, 94, 0.3);
+  padding: 0.2rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
+}
+
 .badge-featured {
   position: absolute;
   top: 10px;
